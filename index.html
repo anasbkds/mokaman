@@ -7,9 +7,7 @@
     <style>
         body {
             font-family: "bookman old style";
-            background-image: url('C:\Users\admin\Desktop\video\website background.png');
-            background-size: cover;
-            background-repeat: no-repeat;
+            background-color: olive; /* Set background color to olive */
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -25,6 +23,14 @@
             padding: 20px;
             border-radius: 10px;
         }
+
+        /* Style for images and videos */
+        img,
+        video {
+            border: 5px solid navy; /* Add a navy border around images and videos */
+            border-radius: 10px; /* Add rounded corners */
+            margin: 10px; /* Add some margin around images and videos */
+        }
     </style>
 </head>
 
@@ -39,8 +45,8 @@
     <h1 style="color: navy;">HAHOWA</h1>
 
     <h1 style="color: olive;">VIDEO QROUDA HASRI</h1>
-    <img src="GOPR0553.JPG" width="560" height="315" frameborder="5" allowfullscreen></iframe>
-
+    <img src="GOPR0553.JPG" width="560" height="315" alt="Image" /> <!-- Removed frameborder and allowfullscreen attributes -->
+    
     <p style="color: black;">Hadi fkhater mehdi w younes</p>
     <audio controls>
         <source src="darja darja.mp3" type="audio/mpeg">
