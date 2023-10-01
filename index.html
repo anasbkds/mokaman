@@ -9,9 +9,8 @@
             font-family: "bookman old style";
             background-color: olive; /* Set background color to olive */
             display: flex;
-            flex-direction: column;
-            align-items: center;
             justify-content: center;
+            align-items: center;
             height: 100vh;
             margin: 0;
             padding: 0;
@@ -19,17 +18,17 @@
 
         .container {
             text-align: center;
-            background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background to the container */
+            background-color: rgba(255, 255, 255, 0.7);
             padding: 20px;
             border-radius: 10px;
         }
 
-        /* Style for images and videos */
         img,
         video {
-            border: 5px solid navy; /* Add a navy border around images and videos */
-            border-radius: 10px; /* Add rounded corners */
-            margin: 10px; /* Add some margin around images and videos */
+            border: 5px solid navy;
+            border-radius: 10px;
+            margin: 10px;
+            max-width: 100%; /* Ensure images and videos don't exceed their container */
         }
     </style>
 </head>
@@ -45,7 +44,7 @@
     <h1 style="color: navy;">HAHOWA</h1>
 
     <h1 style="color: olive;">VIDEO QROUDA HASRI</h1>
-    <img src="GOPR0553.JPG" width="560" height="315" alt="Image" /> <!-- Removed frameborder and allowfullscreen attributes -->
+    <img src="GOPR0553.JPG" alt="Image" />
     
     <p style="color: black;">Hadi fkhater mehdi w younes</p>
     <audio controls>
@@ -54,7 +53,7 @@
     </audio>
 
     <h1>HH ANA 3BIYED</h1>
-    <video controls width="640" height="360">
+    <video controls>
         <source src="GH010589.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
